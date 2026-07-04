@@ -1,0 +1,57 @@
+export const siteConfig = {
+  name: "Pawan Singh Negi",
+  initials: "PN",
+  role: ".NET Software Developer",
+  title: "Pawan Singh Negi — .NET Software Developer",
+  tagline: "I build and maintain reliable .NET web applications.",
+  description:
+    "Pawan Singh Negi is a .NET Software Developer with experience at NDTV Network, TV9, and Zee News — building web applications with VB.NET, C#, WebForms, and SQL Server.",
+  url: "https://pawansinghnegi.dev",
+  ogImage: "/pawan.png",
+  availability: "Currently employed",
+  currentCompany: "NDTV Network",
+  email: "npawan221@gmail.com",
+  phone: "+91 81784 98674",
+  location: "Dwarka Sec. 19, Delhi",
+  resumeUrl: "/resume.pdf",
+  hero: {
+    greeting: "Hi, I'm",
+    name: "Pawan Singh Negi",
+    roles: [".NET Software Developer", "Full-Stack .NET Developer", "Web Application Developer"],
+    description:
+      "A .NET Software Developer with hands-on experience across NDTV Network, TV9, and Zee News. I build and maintain web applications with VB.NET, C#, WebForms, and SQL Server — focused on clean, user-friendly solutions.",
+    primaryCta: { label: "View My Work", href: "#projects" },
+    secondaryCta: { label: "Contact Me", href: "#contact" },
+    resumeCta: { label: "Download Resume", href: "/resume.pdf" },
+  },
+  about: {
+    heading: "About Me",
+    subheading: "The developer behind the code",
+    image: "/pawan.png",
+    paragraphs: [
+      "I'm a .NET Software Developer with experience in VB.NET, C#, and WebForms. I build and maintain web applications, work with SQL databases, and focus on creating user-friendly solutions.",
+      "I'm currently working at NDTV Network as a Software Developer. Previously at TV9, I delivered election dashboards, ticker applications, FPC frontend, Vizrt integrations, and Template Wizard workflows for live broadcast.",
+      "My journey started at Zee News as a Trainee and Intern, where I learned broadcast IT workflows and .NET development — a foundation that shaped my career in media technology.",
+    ],
+  },
+  author: { name: "Pawan Singh Negi", twitter: "@pawansinghnegi" },
+  keywords: [
+    "Pawan Singh Negi",
+    "NDTV Network",
+    "Zee News",
+    ".NET Developer",
+    "Software Developer",
+    "C# Developer",
+    "VB.NET",
+    "WebForms",
+    "ASP.NET",
+    "SQL Server",
+    "Vizrt",
+    "Template Wizard",
+    "Ticker Systems",
+    "Election Graphics",
+    "Portfolio",
+  ],
+} as const;
+
+export type SiteConfig = typeof siteConfig;
