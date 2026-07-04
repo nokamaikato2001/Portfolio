@@ -5,7 +5,7 @@ import { Command } from "lucide-react";
 import { navItems } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { scrollToSection, cn } from "@/lib/utils";
-import { useCommandMenu } from "@/components/layout/command-menu";
+import { useCommandMenu } from "./command-menu";
 
 export function Navbar() {
   const [active, setActive] = useState("home");
