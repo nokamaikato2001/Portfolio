@@ -13,7 +13,7 @@ export const siteConfig = {
   email: "npawan221@gmail.com",
   phone: "+91 81784 98674",
   location: "Dwarka Sec. 19, Delhi",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Resume.pdf",
   hero: {
     greeting: "Hi, I'm",
     name: "Pawan Singh Negi",
@@ -22,7 +22,7 @@ export const siteConfig = {
       "A .NET Software Developer with hands-on experience across NDTV Network, TV9, and Zee News. I build and maintain web applications with VB.NET, C#, WebForms, and SQL Server — focused on clean, user-friendly solutions.",
     primaryCta: { label: "View My Work", href: "#projects" },
     secondaryCta: { label: "Contact Me", href: "#contact" },
-    resumeCta: { label: "Download Resume", href: "/resume.pdf" },
+    resumeCta: { label: "Download Resume", href: "/Resume.pdf" },
   },
   about: {
     heading: "About Me",
